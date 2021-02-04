@@ -485,7 +485,8 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Yusei Magic', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #000000 url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: url(../images/header-bg.jpg);
+  background-size: cover;
   border-bottom: solid 1px #275da1
 }
 
