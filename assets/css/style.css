@@ -563,11 +563,18 @@ a.button small {
   font-size: 11px
 }
 
-header a.button {
+header a.button.youtube {
   position: absolute;
   top: 0;
   right: 0;
   background: transparent url(../images/youtube_button-wh.png) 0 0 no-repeat
+}
+
+header a.button.niconico {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent url(../images/niconico_button-wh.png) 0 0 no-repeat
 }
 
 aside a.button {
