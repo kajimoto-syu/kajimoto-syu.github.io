@@ -551,7 +551,6 @@ a.button {
   width: 134px;
   height: 58px;
   padding-top: 22px;
-  padding-left: 68px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 23px;
   line-height: 1.2;
@@ -567,6 +566,7 @@ header a.button.youtube {
   position: absolute;
   top: 0;
   right: 0;
+  padding-left: 80px;
   background: transparent url(../images/youtube_button-wh.png) 0 0 no-repeat
 }
 
@@ -574,6 +574,7 @@ header a.button.niconico {
   position: absolute;
   top: 0;
   right: 0;
+  padding-left: 60px;
   background: transparent url(../images/niconico_button-wh.png) 0 0 no-repeat
 }
 
