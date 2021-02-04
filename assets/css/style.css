@@ -567,6 +567,7 @@ header a.button.youtube {
   top: 0;
   right: 0;
   padding-left: 80px;
+  width: 125px;
   background: transparent url(../images/youtube_button-wh.png) 0 0 no-repeat
 }
 
@@ -574,13 +575,13 @@ header a.button.niconico {
   position: absolute;
   top: 0;
   right: 0;
-  padding-left: 60px;
+  padding-left: 80px;
+  width: 125px;
   background: transparent url(../images/niconico_button-wh.png) 0 0 no-repeat
 }
 
 aside a.button {
   display: block;
-  width: 138px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
