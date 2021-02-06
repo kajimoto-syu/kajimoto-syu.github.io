@@ -565,24 +565,6 @@ a.button small {
   font-size: 11px
 }
 
-header a.button.youtube {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding-left: 80px;
-  width: 125px;
-  background: transparent url(../images/youtube_button-wh.png) 0 0 no-repeat
-}
-
-header a.button.niconico {
-  position: absolute;
-  top: 90px;
-  right: 0;
-  padding-left: 80px;
-  width: 125px;
-  background: transparent url(../images/niconico_button-wh.png) 0 0 no-repeat
-}
-
 aside a.button {
   display: block;
   padding-left: 64px;
@@ -818,6 +800,26 @@ footer a:hover {
 
 .clearfix {
   display: block
+}
+
+@media only screen (min-width: 768px) {
+  header a.button.youtube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 80px;
+    width: 125px;
+    background: transparent url(../images/youtube_button-wh.png) 0 0 no-repeat
+  }
+
+  header a.button.niconico {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    padding-left: 80px;
+    width: 125px;
+    background: transparent url(../images/niconico_button-wh.png) 0 0 no-repeat
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
